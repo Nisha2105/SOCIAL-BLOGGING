@@ -1,0 +1,175 @@
+.navbar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: sticky; 
+    top: 0; 
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; 
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06); 
+    background-color: rgb(214, 240, 249);
+    
+}
+.image{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+span{
+    font-size:50px ;
+    color: rgb(67, 126, 165);
+}
+
+ul{
+    display: flex; 
+    gap: 2.5rem; 
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+    height: 80px;
+    position: relative;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+nav ul li::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgb(67, 126, 165);
+    height: 3px;
+    transition: 0.3s;
+}
+
+nav ul li:hover::after,
+nav ul li.active::after{
+    width: 100%;
+    line-height: 80px;
+} 
+
+nav ul li a{
+    color: #444;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover,
+nav ul li.active a{
+    color: rgb(67, 126, 165);
+    text-decoration: none;
+}
+
+.lists{
+    font-weight: 600; 
+    text-transform: uppercase; 
+}
+
+.btn1{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    border-radius: 0.75rem; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+    color: #ffffff; 
+    background-color: rgb(67, 126, 165);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.btn2{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    border-radius: 0.75rem; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+    color: #ffffff; 
+    background-color: rgb(67, 126, 165);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.login{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    border-radius: 0.75rem; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+    color: #ffffff; 
+    background-color: rgb(67, 126, 165);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops)); 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+}
+.register{
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem; 
+    padding-left: 1.25rem;
+    padding-right: 1.25rem; 
+    border-radius: 0.75rem; 
+    font-size: 1.125rem;
+    line-height: 1.75rem; 
+    font-weight: 600; 
+    color: #ffffff; 
+    background-color: rgb(67, 126, 165);
+    background-image: linear-gradient(to right, var(--tw-gradient-stops)); 
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+    }
+.posted_by{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem; 
+    margin-top: 0.75rem; 
+    display: flex;
+    justify-content: space-between; 
+    /* align-items: center; */
+    background-color: rgb(67, 126, 165);
+    color: white; 
+    }
+.date{
+    font-size: 0.875rem;
+    line-height: 1.25rem;     
+}
+.continue{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    padding-left: 1rem;
+    padding-right: 1rem; 
+    border-radius: 0.375rem;
+    background-color: rgb(67, 126, 165);  
+    color: white;
+
+}
+.posted_by2{
+    display: flex; 
+justify-content: space-around; 
+align-items: center; 
+font-size: 1.125rem;
+line-height: 1.75rem; 
+font-weight: 700; 
+color: #ffffff; 
+background-color: rgb(67, 126, 165);
+}
+.logout{
+    padding-top: 0.75rem;
+padding-bottom: 0.75rem; 
+padding-left: 1.25rem;
+padding-right: 1.25rem; 
+border-radius: 0.75rem; 
+font-size: 1.125rem;
+line-height: 1.75rem; 
+font-weight: 600; 
+color: #ffffff; 
+background-color: rgb(67, 126, 165);
+box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); 
+
+}
